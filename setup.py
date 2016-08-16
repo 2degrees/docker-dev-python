@@ -19,7 +19,7 @@ from setuptools import setup
 
 _HERE = path.abspath(path.dirname(__file__))
 _VERSION = open(path.join(_HERE, 'VERSION.txt')).readline().rstrip()
-_README = open(path.join(_HERE, 'README.rst')).read().strip()
+_README = open(path.join(_HERE, 'README.md')).read().strip()
 
 setup(
     name='docker-dev-python',
