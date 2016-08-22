@@ -34,7 +34,7 @@ setup(
     license='',
     py_modules=['docker_dev_python'],
     install_requires=[
-        'docker-dev == 1.0a2',
+        'docker-dev >= 1.0a2',
     ],
     entry_points={
         'docker_dev.pre_build_hooks': [
